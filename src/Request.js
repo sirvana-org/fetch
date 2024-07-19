@@ -24,9 +24,9 @@ class Request {
             throw new TypeError("Body not allowed for GET or HEAD requests");
         }
 
-        if (this._body._bodyReadableStream) {
-            throw new TypeError("Streaming request bodies is not supported");
-        }
+        // if (this._body._bodyReadableStream) {
+        //     throw new TypeError("Streaming request bodies is not supported");
+        // }
 
         this.credentials = options.credentials ?? this.credentials;
         this.headers = this.headers ?? new Headers(options.headers);
