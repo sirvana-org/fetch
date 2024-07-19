@@ -3,10 +3,7 @@
   "description": "A fetch API polyfill for React Native with text streaming support.",
   "version": "0.0.1",
   "main": "fetch.js",
-  "author": {
-    "name": "Ivan Patera",
-    "email": "ivan@sirvana.com.ar"
-  },
+  "author": "Sirvana",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
