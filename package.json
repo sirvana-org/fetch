@@ -1,12 +1,14 @@
 {
-  "name": "react-native-fetch-api",
+  "name": "@sirvana/react-native-fetch-api",
   "description": "A fetch API polyfill for React Native with text streaming support.",
-  "version": "3.0.0",
+  "version": "0.0.1",
   "main": "fetch.js",
   "author": {
-    "name": "André Costa Lima",
-    "email": "andreclima.pt@gmail.com",
-    "url": "https://github.com/acostalima/"
+    "name": "Ivan Patera",
+    "email": "ivan@sirvana.com.ar"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": "react-native-community/fetch",
   "license": "MIT",
